@@ -9,7 +9,7 @@ var config = {
       name: 'bontempi'
     },
     port: 3000,
-    db: 'mongodb://localhost/bontempi-development'
+        // db: 'ds053479.mongolab.com:53479/heroku_app27918087'
     
   },
 
@@ -19,7 +19,7 @@ var config = {
       name: 'bontempi'
     },
     port: 3000,
-    db: 'mongodb://localhost/bontempi-test'
+        // db: 'mongodb://localhost/bontempi-test'
     
   },
 
@@ -29,7 +29,7 @@ var config = {
       name: 'bontempi'
     },
     port: 3000,
-    db: 'mongodb://localhost/bontempi-production'
+        // db: 'mongodb://localhost/bontempi-production'
     
   }
 };
