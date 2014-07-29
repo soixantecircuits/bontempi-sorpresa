@@ -13,4 +13,4 @@ var app = express();
 
 require('./config/express')(app, config);
 
-app.listen(config.port);
+app.listen(process.env.PORT || 5000);
