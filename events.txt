@@ -1,0 +1,41 @@
+Keys
+
+a = 65         	amount 
+b = 66			balance/bars
+c = 67			colored
+d = 68			distortion
+e = 69
+f = 70			frozen
+g = 71
+h = 72			hue
+i = 73			frameShape
+j = 74			frameSharpness
+k = 75
+l = 76			lineSync
+m = 77			mask
+n = 78
+o = 79			overlay
+p = 80			position (angle) 
+q = 81
+r = 82
+s = 83			saturation
+t = 84			time
+u = 85
+v = 86			verticalSync
+w = 87			clipWhite
+x = 88
+y = 89			scanlines
+z = 90			clipBlack
+
+
+Effects : 
+
+filmgrain : a - s
+noise : a - o 
+blur : a 
+chroma : b - m - w - z
+hue-saturation : h - s
+directionblur : a - p
+freeze : f
+tvglitch : d - t - v - l - y - i
+vibrance : a
